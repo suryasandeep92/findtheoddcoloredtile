@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue;
+  padding-top: 50px;
+  margin:0px;
+  font-family: "Comic Sans MS", cursive, sans-serif;}
+
+
+#header{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: brown;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center; }
+
+  #wrapper #row1, #wrapper #row2, #wrapper #row3, #wrapper #row4, #wrapper #row5, #wrapper #row6, #wrapper #row7, #wrapper #row8 {
+    display: block; }
+
+    #wrapper #row1 #box, #wrapper #row2 #box, #wrapper #row3 #box, #wrapper #row4 #box, #wrapper #row5 #box, #wrapper #row6 #box, #wrapper #row7 #box, #wrapper #row8 #box {
+      display: flex;
+      flex-flow: row;
+      border-style: outset;
+      margin: 0.8px;
+      height: 50px;
+      width: 50px; 
+      }
+p{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color:firebrick;
+}
+span{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color:brown;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    height: auto;
+    width: auto; }
+
+  #wrapper #row1, #wrapper #row2, #wrapper #row3, #wrapper #row4, #wrapper #row5, #wrapper #row6, #wrapper #row7, #wrapper #row8 {
+    height: auto;
+    width: auto; }
+    #wrapper #row1 #box, #wrapper #row2 #box, #wrapper #row3 #box, #wrapper #row4 #box, #wrapper #row5 #box, #wrapper #row6 #box, #wrapper #row7 #box, #wrapper #row8 #box {
+      height: 50px;
+      width: 50px; } }
+@media only screen and (max-width: 768px) {
+  body {
+    height: auto;
+    width: auto; }
+    
+    h1{
+       font-size: 1em;
+    }
+
+  #wrapper #row1, #wrapper #row2, #wrapper #row3, #wrapper #row4, #wrapper #row5, #wrapper #row6, #wrapper #row7, #wrapper #row8 {
+    height: auto;
+    width: auto; }
+    #wrapper #row1 #box, #wrapper #row2 #box, #wrapper #row3 #box, #wrapper #row4 #box, #wrapper #row5 #box, #wrapper #row6 #box, #wrapper #row7 #box, #wrapper #row8 #box {
+      height: 30px;
+      width: 30px; } }
+
+/*# sourceMappingURL=index.css.map */
